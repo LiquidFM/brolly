@@ -19,6 +19,7 @@ build_version_file (brolly 0.0.1)
 # Documentation
 add_documentation ("brolly" 0.0.1 "Crash handling library")
 
-# Install
+# Install rules
 install_header_files (brolly "src/brolly_Assert.h:assert.h"
                              "src/brolly_CrashHandler.h:CrashHandler")
+install_target (brolly)
