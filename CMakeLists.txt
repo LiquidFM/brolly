@@ -1,7 +1,7 @@
 project (brolly)
 
 # Project header
-project_static_library_header_default ()
+project_header_default ("POSITION_INDEPENDENT_CODE:YES")
 
 # Sources
 add_subdirectory (src)
